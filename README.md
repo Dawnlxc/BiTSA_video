@@ -11,6 +11,16 @@ Check our demonstration [[video]()] here.
 
 ## Motivation
 
+Incorporating AI technologies into digital infrastructure offers transformative potential for energy management, particularly in enhancing energy efficiency and supporting net-zero objectives. However, the complexity of IoT-generated datasets often poses a significant challenge, hindering the translation of research insights into practical, real-world applications.
+
+BiTSA, is equipped with time-series (TS) foundation models to bridge this gap. The tool enables building managers to interpret complex energy data quickly and take immediate, data-driven actions based on real-time insights. By integrating advanced forecasting models with an intuitive visual interface, our solution facilitates proactive decision-making, optimizes energy consumption, and promotes sustainable building management practices.
+
+## Capabilities of BiTSA
+- Provides an interactive visualization platform, enabling managers to interpret complex IoT-generated infrastructure data efficiently.
+
+- Utilizes pre-trained time-series models to analyze pre-processed data, delivering insights based on historical trends to assist in future energy planning.
+
+- Bridges the gap between academic research and practical industry applications by integrating cutting-edge AI technologies, making advanced energy forecasting accessible to building managers and facility operators.
 
 ## Key Features
 
@@ -22,6 +32,8 @@ Check our demonstration [[video]()] here.
 
 ## Architecture
 
+![pipeline](./pic/dataflow_fv.png)
+
 ### Front-end
 
 The front-end interfaces are built using [Dash Plotly](https://dash.plotly.com/) to provide an interactive dashboard experience. The user can log in, request statistical summaries, and perform time-series forecasting directly through the dashboard.
@@ -31,22 +43,30 @@ The front-end interfaces are built using [Dash Plotly](https://dash.plotly.com/)
 - `Sign In`: A system entry that identifies the users' credentials to access the functionality.
 - `Sign Up`: A register page for user to allocate their identical information in the backend database.
 
-Once successfully signed in to the system, users can access their dashboard, where the structure tree is as followed:
+Once successfully signed in to the system, users can access their dashboard, where the structure tree is as follows:
 
 `Dashboard`: The main entry point for the software dashboard.
 - `Data Card`: Contains files related to the upload functionality, such as a page to upload files and validate them.
 - `Building Overview`: Contains files that handle the statistics section, such as rendering statistics pages and generating graphs or summaries.
-- `Analytics`: Contains files that handle the forecasting section, including model loading and graph creation for forecasting results.\
+- `Analytics`: Contains files that handle the forecasting section, including model loading and graph creation for forecasting results.
 
 
 ### Back-end
-![backend pipeline](.pic/)
 
 `Data Ingestion Module`:
 `Preprocessing Module`:
-`Pre-trained Models`:
+
+`Pre-trained Models`: BiTSA supports forecasting models including
+- `Naive Methods`: Copy Last Day, Historical Average
+- `Deep Learning Methods`: [DLinear](https://arxiv.org/abs/2205.13504), [PatchTST](https://arxiv.org/abs/2211.14730), [Informer](https://arxiv.org/abs/2012.07436), [iTransformer](https://arxiv.org/abs/2310.06625)
+- `Foundation Models`: [OneFitsAll](https://arxiv.org/abs/2302.11939)
+
 `Results Database`:
 
+## Related Works
+- A Gap in Time: The Challenge of Processing Heterogeneous IoT Point Data in Buildings [[ArXiv](https://arxiv.org/abs/2405.14267)]
+- BTS: Building Timeseries Dataset: Empowering Large-Scale Building Analytics [[ArXiv](https://arxiv.org/html/2406.08990v1)]
+- Brick by Brick: Automating Building Data Classification [[Competition Document](https://racefor2030.com.au/wp-content/uploads/2024/08/DIEF-Competition-1-Flyer-v06.pdf)]
 
 ## Access
 
