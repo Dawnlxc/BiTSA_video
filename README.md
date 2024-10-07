@@ -1,1 +1,1 @@
-**Building Time Series Analytics (BiTSA)**
+*Building Time Series Analytics (BiTSA)*
