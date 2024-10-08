@@ -9,6 +9,10 @@
 
 Check our demonstration [[video](https://youtu.be/8e44ATjWFXQ)] here.
 
+https://youtu.be/GbF3cA5GsSc
+
+[![Watch the video](https://img.youtube.com/vi/GbF3cA5GsSc/maxresdefault.jpg)]([https://youtu.be/T-D1KVIuvjA](https://youtu.be/GbF3cA5GsSc))
+
 ## Motivation
 
 Incorporating AI technologies into digital infrastructure offers transformative potential for energy management, particularly in enhancing energy efficiency and supporting net-zero objectives. However, the complexity of IoT-generated datasets often poses a significant challenge, hindering the translation of research insights into practical, real-world applications.
