@@ -1,15 +1,8 @@
 # Building Time Series Analytics (BiTSA)
 
-![BiTSA Logo](./pic/brick_viz_final.png)
-
 ## Overview
 
 **BiTSA** (Building Time Series Analytics) is an advanced tool design for building managers to efficiently manage energy consumption, predict future trends, and gain insights into building operations. BiTSA will integrate IoT-generated Building Management Systems (BMS) data to provide actionable forecasts, statistical summaries, and more. With its user-friendly interface, robust backend, and customizable forecasting models, BiTSA aims to revolutionize energy management for modern buildings.
-
-
-Check our demonstration [[video](https://youtu.be/8e44ATjWFXQ)] here.
-
-https://youtu.be/GbF3cA5GsSc
 
 [![Watch the video](https://img.youtube.com/vi/GbF3cA5GsSc/maxresdefault.jpg)]([https://youtu.be/T-D1KVIuvjA](https://youtu.be/GbF3cA5GsSc))
 
