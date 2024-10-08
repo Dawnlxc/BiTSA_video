@@ -6,7 +6,7 @@
 
 [![Watch the video](https://img.youtube.com/vi/GbF3cA5GsSc/maxresdefault.jpg)]([https://youtu.be/T-D1KVIuvjA](https://youtu.be/GbF3cA5GsSc))
 
-Click the above image for our demostration [[video](https://youtu.be/GbF3cA5GsSc)]
+Click here for our demostration [[video](https://youtu.be/GbF3cA5GsSc)]
 
 ## Motivation
 
