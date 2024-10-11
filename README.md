@@ -52,11 +52,11 @@ Once successfully signed in to the system, users can access their dashboard, whe
 
 ### Back-end
 
-`Data Ingestion Module`:
-`Preprocessing Module`:
+`Data Ingestion Module`: Act as a connector between the Building Management System data storage and the software backend.
+`Preprocessing Module`: Converting the raw data streams from BMS to analytics-ready data.
 
 `Pre-trained Models`: BiTSA supports forecasting models including
-- `Naive Methods`: Copy Last Day, Historical Average
+- `Naive Methods`: Copy the Last Day, Historical Average
 - `Deep Learning Methods`: [DLinear](https://arxiv.org/abs/2205.13504), [PatchTST](https://arxiv.org/abs/2211.14730), [Informer](https://arxiv.org/abs/2012.07436), [iTransformer](https://arxiv.org/abs/2310.06625)
 - `Foundation Models`: [OneFitsAll](https://arxiv.org/abs/2302.11939)
 
@@ -69,5 +69,5 @@ Once successfully signed in to the system, users can access their dashboard, whe
 
 ## Access
 
-The BiTSA is not a public access design, to customize and extend the BiTSA, please contact xxxxxxxx@unsw.edu.au for further information. 
+The BiTSA is not currently a public access design, to customize and extend the BiTSA, please contact dawn.lin@student.unsw.edu.au for further information. 
 
